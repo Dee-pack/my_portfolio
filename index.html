@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel (Deebug) | Smart Contract Auditor &amp; Web Developer</title>
+  <meta name="description"
+    content="Daniel, also known as Deebug: smart contract security researcher on Sherlock and Cantina, and full-stack web developer.">
+  <meta property="og:title" content="Daniel (Deebug) | Smart Contract Auditor">
+  <meta property="og:description" content="Smart contract security researcher and full-stack web developer.">
+  <meta property="og:type" content="website">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0a'/%3E%3Ctext x='32' y='44' font-size='34' font-weight='700' text-anchor='middle' fill='%2322c55e' font-family='sans-serif'%3ED%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="nav" id="nav">
+    <a class="brand grad" href="#home">Deebug</a>
+    <nav aria-label="Main"><a href="#home"><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 11 12 3l9 8" />
+          <path d="M5 10v10h14V10" />
+        </svg><span>Home</span></a><a href="#skills"><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+        </svg><span>Skills</span></a><a href="#projects"><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+        </svg><span>Projects</span></a><a href="#contact"><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z" />
+        </svg><span>Contact</span></a></nav>
+  </header>
+
+  <main>
+    <section id="home" class="wrap hero">
+      <div>
+        <p class="muted">Hi, I'm Daniel</p>
+        <h1 class="grad">Software<br>Developer</h1>
+        <p class="lead">Hunting vulnerabilities in DeFi protocols and building full-stack web
+          apps with Node, React and PostgreSQL.</p>
+        <div class="actions">
+          <a class="btn" href="#contact">Let's Connect</a>
+          <div class="socials"></div>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="images/portrait.jpg" alt="Portrait of Daniel" width="1000" height="1000" fetchpriority="high">
+      </figure>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="track" id="track"></div>
+    </div>
+
+    <section id="skills" class="wrap sec">
+      <h2 class="grad">Technical Expertise</h2>
+      <div class="grid g3">
+        <article class="card"><button class="card-head" type="button" aria-expanded="false"><span class="ico"><svg
+                viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 4 6v6c0 4.5 3.2 7.8 8 9 4.8-1.2 8-4.5 8-9V6l-8-3z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg></span>
+            <h3>Smart Contract Security</h3><svg viewBox="0 0 24 24" aria-hidden="true" class="chev">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </button>
+          <ul>
+            <li>Competitive audit contests on multiple platforms</li>
+            <li>Foundry tests and proof-of-concept exploits</li>
+            <li>Lending, stablecoin and vault protocols</li>
+          </ul>
+        </article>
+        <article class="card"><button class="card-head" type="button" aria-expanded="false"><span class="ico"><svg
+                viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="7" rx="2" />
+                <rect x="3" y="13" width="18" height="7" rx="2" />
+                <path d="M7 7.5h.01M7 16.5h.01" />
+              </svg></span>
+            <h3>Backend Development</h3><svg viewBox="0 0 24 24" aria-hidden="true" class="chev">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </button>
+          <ul>
+            <li>Node.js and Express APIs</li>
+            <li>PostgreSQL with Prisma and pg</li>
+            <li>JWT and session authentication</li>
+          </ul>
+        </article>
+        <article class="card"><button class="card-head" type="button" aria-expanded="false"><span class="ico"><svg
+                viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="12" rx="2" />
+                <path d="M8 20h8M12 16v4" />
+              </svg></span>
+            <h3>Frontend Development</h3><svg viewBox="0 0 24 24" aria-hidden="true" class="chev">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </button>
+          <ul>
+            <li>React with Vite and React Router</li>
+            <li>Responsive HTML and CSS, dark themes</li>
+            <li>Vanilla JavaScript</li>
+          </ul>
+        </article>
+      </div>
+      <div class="glitch" aria-hidden="true"><canvas id="glitch"></canvas></div>
+    </section>
+
+    <section id="projects" class="wrap sec">
+      <p class="eyebrow">My work</p>
+      <h2 class="grad">Projects</h2>
+      <div class="grid g2">
+        <article class="card">
+          <img class="shot" src="images/blog.png" alt="Blog API reader site showing the list of published posts"
+            width="800" height="450" loading="lazy">
+          <div class="proj-top">
+            <div>
+              <h3>Blog API</h3>
+              <p class="muted small">Deployed</p>
+            </div>
+          </div>
+          <p>A blog platform with an Express and Prisma API, JWT auth, a React reader site and a separate React admin
+            site for authors.</p>
+          <p class="tags"><span>React</span><span>Express</span><span>Prisma</span><span>PostgreSQL</span></p>
+        </article>
+        <article class="card">
+          <img class="shot" src="images/messaging.png" alt="Messaging app" width="800" height="450" loading="lazy">
+          <div class="proj-top">
+            <div>
+              <h3>Messaging App</h3>
+              <p class="muted small">Deployed</p>
+            </div>
+          </div>
+          <p>Chat with JWT auth, profiles with photo avatars, image messages, group chats and online status.</p>
+          <p class="tags"><span>React</span><span>Express</span><span>Prisma</span><span>Supabase</span></p>
+        </article>
+        <article class="card">
+          <img class="shot" src="images/file.png" alt="File Uploader" width="800" height="450" loading="lazy">
+          <div class="proj-top">
+            <div>
+              <h3>File Uploader</h3>
+              <p class="muted small">Deployed</p>
+            </div>
+          </div>
+          <p>Passport session login, folders, private file storage on Supabase and share links that expire.</p>
+          <p class="tags"><span>Express</span><span>Prisma</span><span>Passport</span><span>Supabase</span></p>
+        </article>
+        <article class="card">
+          <img class="shot" src="images/members.png" alt="Members Only" width="800" height="450" loading="lazy">
+          <div class="proj-top">
+            <div>
+              <h3>Members Only</h3>
+              <p class="muted small">Deployed</p>
+            </div>
+          </div>
+          <p>A clubhouse message board with sign-up validation, hashed passwords, membership and admin roles.</p>
+          <p class="tags"><span>Express</span><span>EJS</span><span>Passport</span><span>PostgreSQL</span></p>
+        </article>
+      </div>
+      <a class="btn-outline" id="moreProjects" href="https://github.com/Dee-pack?tab=repositories" target="_blank"
+        rel="noopener noreferrer">More projects on GitHub</a>
+    </section>
+
+    <section id="contact" class="wrap sec">
+      <p class="eyebrow">Let's talk</p>
+      <h2 class="grad">Contact</h2>
+      <div class="grid g2">
+        <p class="muted">Have a question, a project in mind, or an audit to discuss? Send a message and I'll get back to
+          you.</p>
+        <form id="form" novalidate>
+          <input name="name" placeholder="Name" aria-label="Name" required>
+          <input name="email" type="email" placeholder="Email" aria-label="Email" required>
+          <textarea name="message" rows="6" placeholder="Message" aria-label="Message" required></textarea>
+          <button class="btn" type="submit">Submit</button>
+          <p id="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="socials footer-socials"></div>
+    <p>&copy; <span id="year"></span> Daniel. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
