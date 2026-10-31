@@ -1,4 +1,4 @@
-# Daniel (Deebug) | Portfolio
+# Daniel Esosa | Portfolio
 
 Personal portfolio, a smart contract security researcher and full-stack web developer.
 
