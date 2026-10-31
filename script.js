@@ -1,12 +1,9 @@
-// ---- Edit your details here. ----
 const PROFILE = {
   email: "pinmiloyedaniel@gmail.com",
   github: "https://github.com/Dee-pack",
   linkedin: "https://www.linkedin.com/in/daniel-pinmiloye-631b8b375/"
 };
 
-// Links for each project card. Leave "live" empty until you have the URL: the button shows greyed out.
-// An empty "repo" falls back to your GitHub repositories page.
 const REPOS_URL = PROFILE.github + "?tab=repositories";
 const PROJECT_LINKS = {
   "Blog API": { repo: PROFILE.github + "/blog-api", live: "https://client-side-qk8f.onrender.com" },
@@ -120,7 +117,6 @@ document.querySelectorAll(".card-head").forEach((b) => b.addEventListener("click
   }).observe(canvas);
 })();
 
-// Contact form: opens the visitor's email app with the message ready to send to you
 const form = $("#form"), status = $("#status");
 const say = (msg, ok) => { status.textContent = msg; status.dataset.ok = ok ? "1" : "0"; };
 form.addEventListener("submit", (e) => {
