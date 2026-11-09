@@ -2,7 +2,7 @@
 
 Personal portfolio, a smart contract security researcher and full-stack web developer.
 
-[**My Portfolio**](https://daniel-esosa.onrender.com/)
+[**My Portfolio**](https://danielesosa.com.ng/)
 
 ## Built with
 
